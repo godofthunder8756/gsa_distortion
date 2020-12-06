@@ -11,7 +11,7 @@
 
 <Cabbage>
 form caption("GSA DISTORTION") size(300, 475), colour(58, 110, 182), pluginid("def1")
-image bounds(-32, -20, 367, 513) file("D:\Guitar Studio Ahern\Pedal\distortionpedal.png")
+;REMOVED FOR COMPATIBILITY-------image bounds(-32, -20, 367, 513) file("D:\Guitar Studio Ahern\Pedal\distortionpedal.png")
 
 checkbox bounds(86, 180, 130, 20), channel("TestTone"), ,  , text("Tone Test"), colour:1(255, 48, 164, 255)
 rslider bounds(32, 24, 97, 95),          colour(255, 255, 255, 255), trackercolour(255, 255, 255, 255), channel("amount"), range(0.1, 1000, 1, 0.25, 0.001) text("Distortion") textcolour(255, 48, 164, 255)
